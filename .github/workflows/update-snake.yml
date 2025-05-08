@@ -1,5 +1,9 @@
 name: Update Contribution Snake
 
+# <-- Grant write access so GITHUB_TOKEN can push
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 * * * *'
@@ -10,7 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Create output directory
         run: mkdir -p output
@@ -30,7 +37,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/github-contribution-grid-snake.svg
 
-          # Compare staged vs HEAD (so it picks up new files)
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
