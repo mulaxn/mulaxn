@@ -2,7 +2,6 @@ name: Update Contribution Snake
 
 on:
   schedule:
-    # every hour (you can adjust)
     - cron: '0 * * * *'
   workflow_dispatch:
 
@@ -11,20 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) pull down your code
       - uses: actions/checkout@v3
 
-      # 2) generate ONLY the SVG version of the snake
+      - name: Create output directory
+        run: mkdir -p output
+
       - name: Generate contribution-snake SVG
         uses: Platane/snk/svg-only@v3
         with:
-          # your GitHub username (taken from repo owner)
           github_user_name: ${{ github.repository_owner }}
-          # where to write the output file
           outputs: |
             output/github-contribution-grid-snake.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3) commit & push if it changed
       - name: Commit and push updated SVG
         run: |
           git config user.name "github-actions[bot]"
