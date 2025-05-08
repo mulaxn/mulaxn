@@ -10,33 +10,33 @@
 </h1>
 
 <h3 align="center">A passionate software developer from Canada 🇨🇦</h3>
-<br/>
 
-<div align="center">
-  🌱 I’m currently learning **Docker, GraphQL, AWS**  
-  💬 Ask me about **Node.js, React, Firebase... or anything [here](https://github.com/mulaxn/mulaxn/issues)**
-</div>
+<p align="center">
+  🌱 <strong>Currently learning:</strong> Docker, GraphQL, AWS<br/>
+  💬 <strong>Ask me about:</strong> Node.js, React, Firebase… or anything  
+  <a href="https://github.com/mulaxn/mulaxn/issues" target="_blank">here</a>
+</p>
 
-<div align="center">
-  <a href="mailto:alamshajan@gmail.com">
+<p align="center" style="margin-top: 1em;">
+  <a href="mailto:alamshajan@gmail.com" target="_blank" style="margin: 0 0.5em;">
     <img
       src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red"
       alt="Gmail"
     />
   </a>
-  <a href="https://www.linkedin.com/in/shajanalam/" target="_blank">
+  <a href="https://www.linkedin.com/in/shajanalam/" target="_blank" style="margin: 0 0.5em;">
     <img
       src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="LinkedIn"
     />
   </a>
-  <a href="https://mulaxn.github.io/Portfolio/" target="_blank">
+  <a href="https://mulaxn.github.io/Portfolio/" target="_blank" style="margin: 0 0.5em;">
     <img
       src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"
       alt="Portfolio"
     />
   </a>
-</div>
+</p>
 
 <hr/>
 
