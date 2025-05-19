@@ -30,7 +30,7 @@
       alt="LinkedIn"
     />
   </a>
-  <a href="https://mulaxn.github.io/Portfolioupdated/" target="_blank" style="margin: 0 0.5em;">
+  <a href="https://mulaxn.github.io/Port/" target="_blank" style="margin: 0 0.5em;">
     <img
       src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"
       alt="Portfolio"
