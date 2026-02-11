@@ -78,21 +78,18 @@
     alt="GitHub Streak Stats"
   />
 
-  <!-- Overall GitHub Stats -->
-  <img
+<!-- Overall GitHub Stats -->
+<img
   width="390"
-  src="https://github-readme-stats.vercel.app/api?username=mulaxn&show_icons=true&theme=react&border_radius=10&cache_seconds=21600"
-  alt="GitHub Stats"
-  />
+  src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mulaxn&show_icons=true&theme=react&border_radius=10"
+/>
 
-  <br/>
-
-  <!-- Top Languages -->
-  <img
+<!-- Top Languages -->
+<img
   width="325"
-  src="https://github-readme-stats.vercel.app/api/top-langs?username=mulaxn&layout=compact&theme=react&border_radius=10&cache_seconds=21600"
-  alt="Top Languages"
-  />
+  src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs?username=mulaxn&layout=compact&theme=react&border_radius=10"
+/>
+
 </div>
 
 <br/><br/>
