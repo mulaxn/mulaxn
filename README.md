@@ -80,18 +80,18 @@
 
   <!-- Overall GitHub Stats -->
   <img
-    width="390"
-    src="https://github-readme-stats.vercel.app/api?username=mulaxn&count_private=true&show_icons=true&theme=react&border_radius=10"
-    alt="GitHub Stats"
+  width="390"
+  src="https://github-readme-stats.vercel.app/api?username=mulaxn&show_icons=true&theme=react&border_radius=10&cache_seconds=21600"
+  alt="GitHub Stats"
   />
 
   <br/>
 
   <!-- Top Languages -->
   <img
-    width="325"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=mulaxn&hide=html&langs_count=8&layout=compact&theme=react&border_radius=10"
-    alt="Top Languages"
+  width="325"
+  src="https://github-readme-stats.vercel.app/api/top-langs?username=mulaxn&layout=compact&theme=react&border_radius=10&cache_seconds=21600"
+  alt="Top Languages"
   />
 </div>
 
